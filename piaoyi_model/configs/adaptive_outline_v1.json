@@ -1,0 +1,29 @@
+{
+  "resolution": 48,
+  "particle_splat_mode": "adaptive",
+  "adaptive_knn": 16,
+  "adaptive_sigma_min_voxels": 0.65,
+  "adaptive_sigma_max_voxels": 1.8,
+  "adaptive_sparse_amplitude_floor": 0.2,
+  "adaptive_field_weight_floor": 0.15,
+  "adaptive_outlier_mad": 3.0,
+  "adaptive_outlier_field_threshold": 0.5,
+  "adaptive_density_tail_fraction": 0.02,
+  "particle_probability_weight": 1.0,
+  "occupancy_threshold": 0.85,
+  "occupancy_exit_threshold": 0.6,
+  "temporal_new_weight": 0.3,
+  "free_space_suppression": 0.8,
+  "opening_iterations": 0,
+  "closing_iterations": 1,
+  "min_component_voxels": 10,
+  "max_components": 8,
+  "component_merge_distance_m": 0.1,
+  "min_outline_height_m": 0.015,
+  "clearance_envelope": {
+    "enabled_for_path_feasibility": true,
+    "radius_is_consumer_specific": true,
+    "camera_hard_clearance_m": 0.4,
+    "camera_soft_clearance_m": 0.55
+  }
+}
